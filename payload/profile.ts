@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/20200314-big.jpg';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/dalya.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,13 +10,13 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '유 용 우',
-    small: '(요우)',
+    title: '권 현 우',
+    small: '(달야)',
   },
   contact: [
     {
-      title: 'me@yowu.dev',
-      link: 'mailto:me@yowu.dev',
+      title: 'hyanskygg@gmail.com',
+      link: 'mailto:hyanskygg@gmail.com',
       icon: faEnvelope,
     },
     {
@@ -25,20 +25,21 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423',
+      link: 'https://github.com/Dal-ya',
       icon: faGithub,
     },
     {
-      link: 'https://blog.yowu.dev',
+      link: 'https://dalya-tech.tistory.com/',
       icon: faRss,
     },
-    {
-      link: 'https://fb.com/luckyyowu',
-      icon: faFacebook,
-    },
+    // {
+    //   link: 'https://fb.com/luckyyowu',
+    //   icon: faFacebook,
+    // },
+    // 만약 이용시, 3번 줄데 faFacebook 추가해주어야 함 예) import { faGithub, faFacebook }
   ],
   notice: {
-    title: '휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.',
+    title: '해당 이력서는 요우님의 오픈소스 이력서 템플릿을 이용해 작성되었습니다.',
     icon: faBell,
   },
 };

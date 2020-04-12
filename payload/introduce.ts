@@ -1,18 +1,18 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
-import { lastestUpdatedAt } from '../package.json';
+// import { lastestUpdatedAt } from '../package.json';
 
 const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    '웹 백엔드 개발과 스타트업 개발자로서의 다양한 경험이 있습니다. Node.js, PHP, MySQL, Redis, AWS, Git, Linux 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험이 있습니다. 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.',
-    '오픈소스 프로젝트에 관심이 많고, 다양한 방법으로 기여를 하려고 노력하고 있습니다. 이외에도 개인 프로젝트나 개발 커뮤니티 활동 등을 통해 다양한 개발 경험을 즐기고 있습니다. 평소 개발 경험을 공유하거나 기록하는 것을 좋아하여 학부생 시절부터 시작한 개발 블로그에는 350여 개의 기술 포스트를 작성했습니다. 언제나 백엔드 개발의 정점을 찍고 싶다고 생각하고 있으며 다양한 기술을 학습하거나 사용하고 있습니다.',
-    '서비스 개발이란 결국 개발과 비즈니스와의 커뮤니케이션이 가장 중요하다고 생각하고 있습니다. 능동적이고 적극적인 커뮤니케이션으로 문제 해결과 비즈니스 발전을 위해 뛰어듭니다. 이러한 점을 바탕으로 더 좋은 개발자로서 성장하기 위해 더 치열하게 학습하고, 경험하고, 노력하고 있습니다.',
+    '안녕하세요? 신입 웹백엔드 지원자 권현우입니다.',
+    '일을 하면서 간단한 파이썬 스크립트를 작성해서 불편했던 문제를 해결한 적이 있었습니다. 그 때 코딩을 통해 문제를 해결할 수 있다는 점이 무척 인상 깊었고 기뻤습니다. 이후 부트캠프를 통해 웹 개발 전반에 관한 지식 습득과 협업력을 기를 수 있었습니다.',
+    '작은 일이더라도 문제를 해결할 수 있는 “가치를 만들어내는 프로그래머"라는 비전까지 갖게 되었고, 비전을 실현하기 위해 날마다 성장하는 겸손한 개발자가 되고자 합니다.',
   ],
-  sign: 'Yu Yongwoo',
+  sign: 'Dal-ya',
   // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
-  latestUpdated: lastestUpdatedAt,
+  latestUpdated: '2020-04-12',
+  // latestUpdated: lastestUpdatedAt,
 };
 
 export default introduce;

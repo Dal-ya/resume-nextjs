@@ -151,7 +151,7 @@ const nineXdDeveloperComunity: IOpenSource.Item = {
 };
 
 const openSource: IOpenSource.Payload = {
-  disable: false,
+  disable: true,
   list: [resume, r2curl, nodeEscpos, kanboard, ossDeveloperComunity, nineXdDeveloperComunity],
 };
 

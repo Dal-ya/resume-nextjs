@@ -2,8 +2,8 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview_resize.png';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = '(대충 유용우 개발자 Resume 라는 제목)';
-const description = '(대충 유용우 개발자 Resume 라는 설명)';
+const title = 'resume';
+const description = 'resume';
 
 export const _global: IGlobal.Payload = {
   favicon,
